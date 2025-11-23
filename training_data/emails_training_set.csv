@@ -1,4 +1,4 @@
-subject,body,urgency
+subject,body,priority
 Server down,The production server has been down since morning and clients are unable to login. Please fix this as soon as possible.,Urgent
 Password reset,I forgot my password. Please help me reset my account login.,Normal
 Team lunch,We are planning a casual team lunch next Friday. Let me know if you are interested.,Low

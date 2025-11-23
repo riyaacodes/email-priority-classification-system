@@ -16,7 +16,7 @@ def main():
     df = load_and_prepare_data(data_path)
 
     X_text = df["text"].tolist()
-    y = df["urgency"].tolist()
+    y = df["priority"].tolist()
 
     # 2. Load sentence embedding model (MiniLM)
     print("Loading embedding model (all-MiniLM-L6-v2)...")
@@ -42,7 +42,7 @@ def main():
 
     # 6. Save classifier
     os.makedirs("models", exist_ok=True)
-    model_path = os.path.join("models", "urgency_classifier.pkl")
+    model_path = os.path.join("models", "priority_classifier.pkl")
     joblib.dump(clf, model_path)
     print(f"Model saved to {model_path}")
 

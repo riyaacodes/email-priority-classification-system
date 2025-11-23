@@ -50,10 +50,10 @@ email-priority-classification-system/
 ├── requirements.txt
 ├── LICENSE
 ├── README.md
-├──Screenshot_landing_page.png
-├──Screenshot_sample_dataset.png
-├──Screenshot_classification_result.png
-├──Screenshot_priority_distribution.png
+├── Screenshot_landing_page.png
+├── Screenshot_sample_dataset.png
+├── Screenshot_classification_result.png
+├── Screenshot_priority_distribution.png
 └── statement.md
 
 
@@ -116,5 +116,5 @@ This project is released under the MIT License.
 
 ## ✍️ Author
 
-Riya Sinha
-25BOE10080
+- Riya Sinha
+- 25BOE10080

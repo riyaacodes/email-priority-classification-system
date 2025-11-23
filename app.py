@@ -25,11 +25,11 @@ def get_embedding_model():
 
 def get_classifier():
     """
-    Load the trained classifier from models/urgency_classifier.pkl
+    Load the trained classifier from models/priority_classifier.pkl
     and keep it in session_state.
     """
     if "classifier" not in st.session_state:
-        model_path = os.path.join("models", "urgency_classifier.pkl")
+        model_path = os.path.join("models", "priority_classifier.pkl")
         if not os.path.exists(model_path):
             # This will show a clear error in the UI and stop execution
             st.error(
@@ -57,7 +57,7 @@ def preprocess_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
 def predict_urgency(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Given a dataframe with 'text' column, add 'urgency_predicted'.
+    Given a dataframe with 'text' column, add 'priority_predicted'.
     """
     model = get_embedding_model()
     clf = get_classifier()
@@ -67,7 +67,7 @@ def predict_urgency(df: pd.DataFrame) -> pd.DataFrame:
     preds = clf.predict(embeddings)
 
     df = df.copy()
-    df["urgency_predicted"] = preds
+    df["priority_predicted"] = preds
     return df
 
 
@@ -368,14 +368,14 @@ def main():
 
                         st.subheader("Classification Results")
                         # Show classification results with index starting from 1
-                        results_df = df_pred[["subject", "body", "urgency_predicted"]].head(50).copy()
+                        results_df = df_pred[["subject", "body", "priority_predicted"]].head(50).copy()
                         results_df.index = range(1, len(results_df) + 1)
                         # Use st.dataframe with use_container_width=True to match the preview width
                         st.dataframe(results_df, use_container_width=True)
 
                         # Summary counts
                         st.subheader("Priority Distribution")
-                        counts = df_pred["urgency_predicted"].value_counts().reset_index()
+                        counts = df_pred["priority_predicted"].value_counts().reset_index()
                         counts.columns = ["urgency", "count"]
                         # Add some vertical spacing and use container width for the chart
                         st.markdown("<div style='margin: 20px 0;'></div>", unsafe_allow_html=True)

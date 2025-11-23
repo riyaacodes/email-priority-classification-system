@@ -20,13 +20,13 @@ def clean_text(text: str) -> str:
 
 def load_and_prepare_data(csv_path: str) -> pd.DataFrame:
     """
-    Load CSV with columns: subject, body, urgency
+    Load CSV with columns: subject, body, priority
     Combine subject + body and clean the text.
     """
     df = pd.read_csv(csv_path)
 
     # Make sure required columns exist
-    required_cols = {"subject", "body", "urgency"}
+    required_cols = {"subject", "body", "priority"}
     if not required_cols.issubset(df.columns):
         raise ValueError(f"CSV must contain columns: {required_cols}")
 

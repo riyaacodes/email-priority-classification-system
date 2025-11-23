@@ -1,0 +1,113 @@
+subject,body,urgency
+Server down,The production server has been down since morning and clients are unable to login. Please fix this as soon as possible.,Urgent
+Password reset,I forgot my password. Please help me reset my account login.,Normal
+Team lunch,We are planning a casual team lunch next Friday. Let me know if you are interested.,Low
+Payment failure,Customer payment is failing during checkout. Multiple users have reported this issue today.,Urgent
+Monthly report,Please find attached the monthly performance report for your review.,Normal
+Office decoration,We should decorate the office for the upcoming festival next month.,Low
+Login issue,Several users are unable to login to the portal since afternoon. Please check the authentication service.,Urgent
+Invoice query,Kindly confirm the status of my last invoice for the month of October.,Normal
+Holiday plan,Let’s discuss our holiday trip plan sometime next week.,Low
+Critical bug,A critical bug is causing data loss in the latest release. This needs immediate attention.,Urgent
+Survey reminder,Please take a few minutes to fill out the employee feedback survey.,Normal
+Birthday celebration,We are planning a small birthday celebration in the pantry tomorrow.,Low
+Server outage,The database server is currently unreachable and applications are timing out. Need immediate investigation.,Urgent
+VPN access issue,I am unable to connect to the VPN since this morning. Could someone check my access settings?,Normal
+Office supplies,We are running low on printer cartridges. Can we place an order sometime this week?,Low
+Client escalation,A major client is reporting frequent errors while submitting forms. This needs urgent attention before EOD.,Urgent
+Timesheet reminder,Please update your weekly timesheets before tomorrow afternoon.,Normal
+Parking lot maintenance,The parking area will be repainted next weekend. No action required from employees.,Low
+Security breach alert,Suspicious login attempts detected on multiple accounts. Immediate review and containment required.,Urgent
+Travel itinerary,Attached is my travel plan for the upcoming conference. Please approve whenever possible.,Normal
+Coffee machine service,The coffee machine on the second floor is not working. Maybe service it when convenient.,Low
+Data backup failed,Automated backup did not run last night for production storage. Needs to be fixed urgently.,Urgent
+Meeting reschedule,Tomorrow’s sync-up meeting has been moved to Friday. Please confirm your availability.,Normal
+Office plants,We should consider replacing old plants at the reception next month.,Low
+Email delivery failure,Several outgoing emails are bouncing for external domains. Please investigate immediately.,Urgent
+Policy update,Please review the updated HR leave policy attached to this email.,Normal
+Fun Friday activity,We are planning a small quiz event this Friday evening. Participation is optional.,Low
+Payment gateway alert,The payment gateway is showing intermittent failures for international cards. Requires urgent resolution.,Urgent
+Document request,Could you share the final version of the vendor contract by tomorrow?,Normal
+Kitchen cleanup,The pantry fridge needs a cleanup. We can organize it during the weekend.,Low
+Firewall configuration,Recent firewall rules are blocking internal service communication. Needs immediate rollback.,Urgent
+Training invitation,You are invited to attend the cybersecurity awareness training next Wednesday.,Normal
+System crash,The accounting application keeps crashing after the latest update. Needs immediate fix before payroll processing.,Urgent
+Laptop replacement,My laptop battery drains quickly and shuts down randomly. Can I request a replacement?,Normal
+Event volunteering,We need volunteers for the annual charity event next month. Let me know if you're interested.,Low
+Network congestion,Users are experiencing extremely slow internet speeds across the office. Please investigate urgently.,Urgent
+Training completion,Please complete the mandatory compliance training by the end of this week.,Normal
+Office pantry restock,We are running low on snacks in the pantry. Let's restock sometime later this week.,Low
+Email phishing alert,Several employees have reported phishing emails asking for credentials. Immediate action required.,Urgent
+Leave approval,Requesting approval for my leave from 12th to 15th next month.,Normal
+Team outing idea,Thinking of planning a team outing sometime next quarter. Open to suggestions.,Low
+Storage capacity critical,Production storage has reached 95% capacity. Needs urgent cleanup to avoid failure.,Urgent
+File access request,I need access to the marketing shared folder for project work. Please grant permissions.,Normal
+Office bookshelf,We should organize the shared bookshelf in the break room sometime soon.,Low
+Application downtime,Several users are unable to access the CRM system since 10 AM. Needs urgent investigation.,Urgent
+Invoice verification,Please confirm the details of the invoice submitted last week.,Normal
+Office renovation,Thinking of repainting the meeting room walls next month.,Low
+Unauthorized access detected,An unknown device attempted to access the internal network. Immediate review required.,Urgent
+Weekly update,Attached is the weekly project status report for your review.,Normal
+Coffee machine schedule,We can service the coffee machine during the upcoming holiday weekend.,Low
+Database corruption,Database integrity check failed and records are missing. Needs urgent restore.,Urgent
+Expense approval,Please approve the travel expenses submitted yesterday.,Normal
+Lost access card,I misplaced my office access card. Need a replacement whenever possible.,Normal
+Internal survey,Please fill out the internal tools feedback survey by Friday.,Normal
+Office bookshelf donation,We have extra books that can be donated to the local library. Open to ideas.,Low
+Heating system failure,The heating system is not functioning on the second floor. Needs immediate repair.,Urgent
+Printer configuration,The new printer is not showing up on the network. Can IT configure it?,Normal
+Company merchandise,Thinking of ordering new T-shirts for the team next quarter.,Low
+Unexpected reboot,The production server rebooted unexpectedly and services are unstable. Needs urgent monitoring.,Urgent
+Agenda confirmation,Please review the meeting agenda and let me know if any changes are needed.,Normal
+Weekend cleaning,We should clean out old items from the storage room this weekend.,Low
+API outage,Third-party API is not responding and blocking customer transactions. Immediate fix required.,Urgent
+Feedback request,Kindly share feedback on the new dashboard when you have time.,Normal
+Unused equipment,There are unused chairs in the storage room that can be donated later.,Low
+Power fluctuation,Frequent power fluctuations are causing server instability. Needs urgent resolution.,Urgent
+New joiner setup,Please create system access for the new employee joining next Monday.,Normal
+Holiday decoration,We should decorate the lobby for the holiday season next month.,Low
+Security certificate expired,SSL certificate has expired and users cannot access the portal. Needs immediate renewal.,Urgent
+Policy acknowledgment,Please acknowledge the updated remote work policy by signing the attached form.,Normal
+Carpet cleaning,The conference room carpet needs cleaning. Can be done during the weekend.,Low
+Backup restore request,A customer account needs data restoration from last week's backup. Please prioritize.,Urgent
+Delivery confirmation,Please confirm if the office furniture delivery was received.,Normal
+Production deploy failure,The deployment to production failed and the application is stuck in maintenance mode. Needs immediate rollback.,Urgent
+Software license renewal,The antivirus license will expire next month. Please renew before the deadline.,Normal
+Office recycling bins,We should add more recycling bins near the cafeteria next month.,Low
+Payment delay alert,Multiple vendors are reporting delayed payments due to system errors. Needs urgent action.,Urgent
+ID card printing,Could you print a new ID card for the intern starting tomorrow?,Normal
+Weekend maintenance,Planning to clean old storage racks during the weekend. No urgent action needed.,Low
+Network firewall outage,Firewall is blocking outbound traffic causing service disruptions. Requires immediate fix.,Urgent
+Project document update,Please upload the revised project plan to the shared drive when convenient.,Normal
+Gym room suggestion,It would be nice to add a treadmill to the office gym next quarter.,Low
+Customer data mismatch,Customer records are showing incorrect account details after last update. Needs urgent correction.,Urgent
+Email signature change,Please update your email signatures as per the new branding guidelines.,Normal
+Office gift ideas,Looking for suggestions for employee welcome kits next month.,Low
+Critical patch missing,Security patch was not applied on several servers. Needs urgent installation.,Urgent
+Calendar access request,I need access to the shared marketing calendar for scheduling events.,Normal
+Desk rearrangement,We should rearrange seating in the open workspace for better collaboration.,Low
+Data center overheating,Temperature sensors show high heat levels in the data center. Immediate cooling required.,Urgent
+Project handover,Attached are the handover notes for the upcoming transition.,Normal
+Kitchen supplies,We should stock more utensils in the pantry sometime next week.,Low
+Service outage notification,SMS gateway is down causing delays in OTP delivery. Needs urgent fix.,Urgent
+Visitor approval,Please approve the visitor pass for tomorrow's client meeting.,Normal
+Missing stationery,We are short on notepads and pens in the meeting rooms. Can we restock soon?,Normal
+Office garden cleanup,"The plants in the courtyard need trimming, maybe next weekend.",Low
+Unauthorized login attempt,Multiple failed login attempts detected on admin accounts. Immediate investigation needed.,Urgent
+File format issue,Unable to open the shared file due to version mismatch. Please resend in compatible format.,Normal
+Team photo planning,We are planning a team photo session next Thursday.,Low
+High CPU usage,Servers are running at 95% CPU and causing slow response times. Needs urgent scaling.,Urgent
+Travel advance request,Requesting travel advance for the conference trip next month.,Normal
+Old magazines removal,We can remove old magazines from the lounge area this weekend.,Low
+Data leak warning,Unusual data transfer detected from internal systems. Needs immediate containment.,Urgent
+Contract renewal reminder,Vendor contract is due for renewal next month. Please review terms.,Normal
+Office chair replacement,Several chairs in the meeting room are broken. Can be replaced when possible.,Low
+Server backup stalled,Nightly backup froze midway and did not complete. Needs urgent restart.,Urgent
+Meeting minutes,Attached are the minutes from today's review meeting.,Normal
+Notice board update,We should refresh the notice board with new posters soon.,Low
+API authentication failure,"API authentication tokens are being rejected, blocking integrations. Needs urgent fix.",Urgent
+Training confirmation,Please confirm your attendance for the upcoming leadership workshop.,Normal
+Storage room labels,We should add labels to the storage shelves next time we organize.,Low
+DNS resolution issue,Internal DNS is failing to resolve service endpoints. Needs immediate attention.,Urgent
+Form submission issue,Unable to submit the leave request form due to a validation error. Please check.,Normal
+Coffee beans stock,We are running low on coffee beans and may need to restock soon.,Low

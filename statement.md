@@ -41,4 +41,5 @@ The system is designed for:
 - Urgency prediction using a Logistic Regression classifier
 - Display of classified results in a table
 - Visualization of urgency distribution using a bar chart
+- Option to view model performance metrics (accuracy and classification report)
 - Downloadable output file with predictions in csv format

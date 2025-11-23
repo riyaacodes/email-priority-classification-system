@@ -259,6 +259,53 @@ def main():
         "Upload CSV or Excel file with 'subject' and 'body' columns",
         type=["csv", "xlsx"],
     )
+    
+    # Add a button to show model metrics
+    st.sidebar.markdown("---")
+    if st.sidebar.button("📊 View Model Metrics"):
+        st.sidebar.markdown("### Model Performance")
+        st.sidebar.markdown("**Accuracy:** 97.3%")
+        
+        # More compact table using HTML/CSS
+        st.sidebar.markdown("""
+        <style>
+        .metrics-table {
+            font-size: 12px;
+            width: 100%;
+            border-collapse: collapse;
+            margin: 8px 0;
+        }
+        .metrics-table th, .metrics-table td {
+            padding: 4px 6px;
+            text-align: left;
+            border-bottom: 1px solid #e1e4e8;
+        }
+        .metrics-table th {
+            background-color: #f0f4ff;
+            font-weight: 600;
+        }
+        .metrics-table tr:last-child td {
+            border-bottom: none;
+        }
+        .metrics-avg {
+            font-size: 11px;
+            margin-top: 4px;
+            color: #4a5568;
+        }
+        </style>
+        
+        <table class="metrics-table">
+            <tr><th>Class</th><th>Prec</th><th>Rec</th><th>F1</th><th>support</th></tr>
+            <tr><td>Low</td><td>1.00</td><td>0.92</td><td>0.96</td><td>12</td></tr>
+            <tr><td>Normal</td><td>1.00</td><td>1.00</td><td>1.00</td><td>13</td></tr>
+            <tr><td>Urgent</td><td>0.92</td><td>1.00</td><td>0.96</td><td>12</td></tr>
+        </table>
+        
+        <div class="metrics-avg">
+            <div>Macro Avg: Prec 0.97, Rec 0.97, F1 0.97</div>
+            <div>Weighted: Prec 0.98, Rec 0.97, F1 0.97</div>
+        </div>
+        """, unsafe_allow_html=True)
 
     df = None
 

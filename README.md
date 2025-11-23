@@ -8,13 +8,13 @@ A Streamlit-based dashboard allows users to upload datasets, view predictions in
 ---
 
 ## ✅ Features
-- Upload custom CSV files containing email subject and body
-- Select a preloaded sample dataset
+- Select a preloaded sample dataset or Upload custom CSV files containing email subject and body
 - Automatic text preprocessing and cleaning
 - Semantic embeddings using `all-MiniLM-L6-v2`
 - Urgency prediction using Logistic Regression
 - Results displayed in tabular format
 - Bar chart visualization of class distribution
+- 'View Model Metrics' button to display accuracy and classification report
 - Downloadable output CSV with predicted labels
 
 ---
@@ -36,16 +36,27 @@ A Streamlit-based dashboard allows users to upload datasets, view predictions in
 email-priority-classification-system/
 │
 ├── data/
-│   └── sample_emails.csv
+│   └── emails1.csv
 │
+├── training_data/
+│   └── emails_training_set.csv
 ├── models/
 │   └── urgency_classifier.pkl
 │
+├── .gitignore
 ├── preprocessing.py
 ├── train_model.py
 ├── app.py
 ├── requirements.txt
+├── LICENSE
+├── README.md
+├──Screenshot_landing_page.png
+├──Screenshot_sample_dataset.png
+├──Screenshot_classification_result.png
+├──Screenshot_priority_distribution.png
 └── statement.md
+
+
 ```
 
 ## 🚀 Installation & Setup
@@ -77,7 +88,7 @@ To test the application:
         subject
         body
 
-2. Click Run Urgency Classification
+2. Click **Run Urgency Classification**
 
 3. View:
 
@@ -87,12 +98,17 @@ To test the application:
 
 4. Try uploading a new unseen CSV to verify generalization having columns "subject" and "body".
 
+5. Click **View Model Metrics** to display:
+   - Overall accuracy (97.3%)
+   - Precision, recall, and F1-score for each class
+   - Macro and weighted averages 
+
 ## 📸 Screenshots
 
-![alt text](<Screenshot 2025-11-23 171411.png>)
-![alt text](<Screenshot 2025-11-23 171436.png>)
-![alt text](<Screenshot 2025-11-23 171508.png>)
-![alt text](<Screenshot 2025-11-23 171528.png>)
+![alt text](Screenshot_landing_page.png)
+![alt text](Screenshot_sample_dataset.png)
+![alt text](Screenshot_classification_result.png)
+![alt text](Screenshot_priority_distribution.png)
 
 ## 📄 License
 

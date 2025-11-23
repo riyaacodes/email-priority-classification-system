@@ -32,37 +32,38 @@ A Streamlit-based dashboard allows users to upload datasets, view predictions in
 
 ## 📂 Project Structure
 
+```txt
 email-priority-classification-system/
 │
 ├── data/
-│ └── sample_emails.csv
+│   └── sample_emails.csv
 │
 ├── models/
-│ └── urgency_classifier.pkl
+│   └── urgency_classifier.pkl
 │
 ├── preprocessing.py
 ├── train_model.py
 ├── app.py
 ├── requirements.txt
 └── statement.md
+```
 
 ## 🚀 Installation & Setup
 
-### 1️⃣ Clone the repository
+### Go to VS Code terminal and clone the repository
 
-# Go to VS Code terminal
 git clone https://github.com/riyaacodes/email-priority-classification-system.git
 
-# Enter the project root folder
+### Enter into the project root folder
 cd email-priority-classification-system
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 
-# Train the model (run once)
+### Train the model (run once)
 python train_model.py
 
-# Launch the Streamlit app
+### Launch the Streamlit app
 streamlit run app.py
 
 The dashboard will open in your browser automatically or manually you can go to http://localhost:8501/
@@ -80,9 +81,9 @@ To test the application:
 
 3. View:
 
-    predicted urgency labels
-    bar chart distribution
-    downloadable CSV output
+    - predicted urgency labels
+    - bar chart distribution
+    - downloadable CSV output
 
 4. Try uploading a new unseen CSV to verify generalization having columns "subject" and "body".
 
@@ -100,3 +101,4 @@ This project is released under the MIT License.
 ## ✍️ Author
 
 Riya Sinha
+25BOE10080
